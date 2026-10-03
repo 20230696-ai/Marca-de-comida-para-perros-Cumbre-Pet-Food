@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CUMBRE PET FOOD | Nutrición Canina de Alta Gastronomía</title>
+<!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Theme Configuration verbatim -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary-fixed-variant": "#214f3c",
+            "surface-variant": "#e5e2e1",
+            "on-tertiary-container": "#99baa2",
+            "surface-container-low": "#f6f3f2",
+            "on-tertiary-fixed": "#022111",
+            "secondary-container": "#fdd487",
+            "surface-tint": "#3a6753",
+            "on-error-container": "#93000a",
+            "tertiary-container": "#2d4b38",
+            "tertiary-fixed": "#c8ebd1",
+            "on-tertiary-fixed-variant": "#2f4d3a",
+            "tertiary": "#163423",
+            "outline-variant": "#c0c9c2",
+            "primary-fixed": "#bceed3",
+            "on-surface": "#1b1c1c",
+            "primary-container": "#1f4d3a",
+            "primary-fixed-dim": "#a1d1b8",
+            "tertiary-fixed-dim": "#adcfb6",
+            "inverse-surface": "#303030",
+            "on-secondary-container": "#785a19",
+            "surface-bright": "#fcf9f8",
+            "outline": "#717973",
+            "secondary-fixed": "#ffdea4",
+            "on-background": "#1b1c1c",
+            "on-secondary-fixed-variant": "#5d4200",
+            "on-surface-variant": "#414944",
+            "secondary-fixed-dim": "#e8c176",
+            "surface": "#fcf9f8",
+            "surface-container": "#f0eded",
+            "on-primary-fixed": "#002114",
+            "surface-container-highest": "#e5e2e1",
+            "on-error": "#ffffff",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary-fixed": "#261900",
+            "on-primary": "#ffffff",
+            "inverse-on-surface": "#f3f0ef",
+            "surface-dim": "#dcd9d9",
+            "background": "#fcf9f8",
+            "on-secondary": "#ffffff",
+            "surface-container-high": "#eae7e7",
+            "primary": "#023625",
+            "error": "#ba1a1a",
+            "error-container": "#ffdad6",
+            "secondary": "#775a19",
+            "on-primary-container": "#8dbda4",
+            "inverse-primary": "#a1d1b8",
+            "on-tertiary": "#ffffff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-mobile": "1rem",
+            "space-sm": "0.5rem",
+            "space-xs": "0.25rem",
+            "space-xl": "3.5rem",
+            "space-lg": "2rem",
+            "margin-mobile": "1.25rem",
+            "space-md": "1rem",
+            "gutter": "1.5rem",
+            "margin": "3rem"
+          },
+          "fontFamily": {
+            "body-lg": ["Plus Jakarta Sans"],
+            "headline-lg": ["Playfair Display"],
+            "body-md": ["Plus Jakarta Sans"],
+            "subheading": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "headline-xl": ["Playfair Display"],
+            "headline-sm": ["Playfair Display"],
+            "headline-lg-mobile": ["Playfair Display"],
+            "headline-md": ["Playfair Display"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-xl-mobile": ["Playfair Display"],
+            "label-sm": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "subheading": ["18px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "500" }],
+            "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "headline-xl": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }],
+            "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.08em", "fontWeight": "600" }],
+            "headline-xl-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "600" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      height: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background-color: #C9A45C;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-secondary-container selection:text-primary">
+<!-- 1. NAVIGATION BAR (TopAppBar from Shared JSON) -->
+<header class="bg-surface/95 dark:bg-primary/95 backdrop-blur-md text-primary dark:text-secondary-fixed docked full-width top-0 sticky z-50 shadow-[0_12px_32px_-4px_rgba(18,48,31,0.06)]">
+<div class="flex justify-between items-center w-full px-gutter-mobile md:px-gutter max-w-7xl mx-auto h-20">
+<!-- Leading Brand Icon & Headline -->
+<a class="flex items-center gap-3 group focus:outline-none" href="#">
+<span class="material-symbols-outlined text-secondary text-2xl group-hover:scale-110 transition-transform duration-200">landscape</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm tracking-wider uppercase text-primary dark:text-surface-bright leading-none">CUMBRE PET FOOD</span>
+<span class="font-label-sm text-label-sm tracking-[0.2em] text-secondary mt-1 uppercase">Alta Gastronomía</span>
+</div>
+</a>
+<!-- Desktop Nav Links -->
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface dark:text-surface-variant font-medium tracking-wide hover:text-secondary hover:border-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-label-md" href="#lineas">Líneas</a>
+<a class="text-on-surface dark:text-surface-variant font-medium tracking-wide hover:text-secondary hover:border-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-label-md" href="#ingredientes">Ingredientes</a>
+<a class="text-on-surface dark:text-surface-variant font-medium tracking-wide hover:text-secondary hover:border-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-label-md" href="#promesa">Nuestra promesa</a>
+<a class="text-on-surface dark:text-surface-variant font-medium tracking-wide hover:text-secondary hover:border-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-label-md" href="#opiniones">Opiniones</a>
+<a class="text-on-surface dark:text-surface-variant font-medium tracking-wide hover:text-secondary hover:border-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-label-md" href="#contacto">Contacto</a>
+</nav>
+<!-- Trailing Action: Distinctive Gold Pill Button & Mobile Toggle -->
+<div class="flex items-center gap-4">
+<a class="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-secondary-fixed-dim hover:bg-secondary-fixed text-primary font-semibold text-label-md tracking-wider transition-all duration-200 shadow-sm active:scale-95" href="#comprar">
+          Comprar ahora
+        </a>
+<button aria-label="Abrir menú" class="md:hidden text-primary p-2 focus:outline-none" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Drawer Menu -->
+<div class="hidden md:hidden bg-surface-container-lowest border-t border-outline-variant/30 px-gutter-mobile py-6 shadow-xl" id="mobile-menu">
+<div class="flex flex-col space-y-4">
+<a class="text-on-surface hover:text-secondary text-label-md font-label-md py-2 border-b border-surface-variant" href="#lineas">Líneas</a>
+<a class="text-on-surface hover:text-secondary text-label-md font-label-md py-2 border-b border-surface-variant" href="#ingredientes">Ingredientes</a>
+<a class="text-on-surface hover:text-secondary text-label-md font-label-md py-2 border-b border-surface-variant" href="#promesa">Nuestra promesa</a>
+<a class="text-on-surface hover:text-secondary text-label-md font-label-md py-2 border-b border-surface-variant" href="#opiniones">Opiniones</a>
+<a class="text-on-surface hover:text-secondary text-label-md font-label-md py-2" href="#contacto">Contacto</a>
+</div>
+</div>
+</header>
+<!-- 2. HERO SECTION -->
+<section class="relative bg-surface overflow-hidden pt-8 pb-16 md:pt-16 md:pb-24">
+<div class="max-w-7xl mx-auto px-gutter-mobile md:px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Text Content -->
+<div class="lg:col-span-6 z-10 flex flex-col justify-center">
+<div class="inline-flex items-center gap-2 mb-4">
+<span class="w-6 h-[1px] bg-secondary"></span>
+<span class="text-secondary font-label-sm text-label-sm tracking-[0.2em] uppercase font-bold">Nutrición canina de alta gastronomía</span>
+</div>
+<h1 class="text-primary font-headline-lg-mobile md:font-headline-xl md:text-headline-xl mb-6 leading-tight">
+            Llega a la cumbre de la nutrición canina
+          </h1>
+<p class="text-on-surface-variant font-body-lg text-body-lg mb-8 max-w-xl font-light leading-relaxed">
+            Ingredientes 100% naturales de origen seleccionado y fórmulas bio-optimizadas desarrolladas junto a veterinarios líderes para el bienestar integral de tu compañero.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
+<a class="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-secondary-fixed-dim hover:bg-secondary-fixed text-primary font-semibold text-label-md tracking-wider transition-all duration-200 shadow-sm text-center" href="#lineas">
+              Descubre nuestras líneas
+            </a>
+<a class="inline-flex items-center justify-center px-8 py-3.5 rounded-lg border border-secondary text-primary hover:bg-surface-container font-semibold text-label-md tracking-wider transition-all duration-200 text-center" href="#promesa">
+              Conoce más
+            </a>
+</div>
+<!-- Proof points -->
+<div class="mt-12 pt-8 border-t border-outline-variant/30 grid grid-cols-3 gap-4">
+<div>
+<p class="font-headline-sm text-headline-sm text-primary font-semibold">100%</p>
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Natural y Noble</p>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm text-primary font-semibold">0%</p>
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Subproductos</p>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm text-primary font-semibold">Veterinario</p>
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Aprobado y Avalado</p>
+</div>
+</div>
+</div>
+<!-- Hero Visual Media -->
+<div class="lg:col-span-6 relative">
+<div class="relative mx-auto rounded-xl overflow-hidden shadow-[0_24px_48px_-12px_rgba(18,48,31,0.12)] border border-secondary/20 bg-surface-container-low">
+<img alt="Cumbre Pet Food - Nutrición Canina Premium" class="w-full h-auto object-cover transform hover:scale-[1.02] transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8629NPGhRTcmm43bs1CGxmBeYmANAbEtGoA-7ApLAKh_2kwIDte5V1sWmA3wnvuakprh7Op_YgQ8sSP_8102cFr-QFEgG1mYNJDyHY-t3ftwWrul4R-z5BEz_gZObvLmsPvxxQIKrgPD0M5mpUU_-sWu6di5xqWgrPFT-_uv2u48WO6ZQTW3NidZlCmGgWUAGZ1AwC8T6fJWI5XHR7VrrNCl_oIZ77XkUmALLbA9i13C0h6EeJwQ"/>
+<!-- Subtle gold ambient badge -->
+<div class="absolute bottom-4 left-4 right-4 sm:right-auto bg-surface/90 backdrop-blur-md p-4 rounded-lg border border-secondary/30 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-3xl">verified</span>
+<div>
+<p class="text-primary font-headline-sm text-sm font-semibold">Fórmula Chicken &amp; Wild Ancient Grains</p>
+<p class="text-on-surface-variant font-label-sm text-xs">Grado culinario humanizado con nutrientes biodisponibles</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EDITORIAL PEAK DIVIDER -->
+<div class="flex items-center justify-center max-w-7xl mx-auto px-gutter-mobile py-8">
+<div class="flex-grow h-[1px] bg-secondary/30"></div>
+<div class="px-4 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">change_history</span>
+</div>
+<div class="flex-grow h-[1px] bg-secondary/30"></div>
+</div>
+<!-- 3. BRAND PROMISE SECTION ('Nuestra Promesa') -->
+<section class="py-16 md:py-24 bg-surface" id="promesa">
+<div class="max-w-7xl mx-auto px-gutter-mobile md:px-gutter text-center">
+<span class="text-secondary font-label-sm text-label-sm tracking-[0.2em] uppercase font-bold">La Promesa Cumbre</span>
+<h2 class="text-primary font-headline-lg-mobile md:font-headline-lg md:text-headline-lg mt-2 mb-4">
+        Excelencia en cada porción
+      </h2>
+<p class="text-on-surface-variant font-body-md text-body-md max-w-2xl mx-auto mb-16">
+        Nuestra filosofía fusiona la tradición gastronómica con la ciencia biológica más rigurosa para crear una experiencia nutricional inigualable.
+      </p>
+<!-- 4 Pillars Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+<!-- Card 1 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 hover:border-secondary transition-colors duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-2xl text-primary">eco</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Ingredientes naturales de origen seleccionado</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Carnes nobles de pastoreo y pesca sustentable sin alteraciones genéticas ni conservantes químicos.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Trazabilidad Total</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 hover:border-secondary transition-colors duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-2xl text-primary">block</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Sin conservantes ni colorantes artificiales</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Pureza absoluta mediante procesos de cocción lenta a baja temperatura para preservar vitaminas y minerales intactos.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Cocción Lenta</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 hover:border-secondary transition-colors duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-2xl text-primary">health_and_safety</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Formulado con veterinarios</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Respaldo científico y balance nutricional de élite adaptado a la biología ancestral del canino doméstico.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Grado Científico</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 hover:border-secondary transition-colors duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-2xl text-primary">vital_signs</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Alta digestibilidad comprobada</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Absorción óptima de nutrientes esenciales, fortalecimiento del microbiota y heces visiblemente más firmes.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Bio-Absorción</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. PRODUCT LINES SECTION ('Nuestras Líneas de Nutrición') -->
+<section class="py-16 md:py-24 bg-surface-container-low" id="lineas">
+<div class="max-w-7xl mx-auto px-gutter-mobile md:px-gutter">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="text-secondary font-label-sm text-label-sm tracking-[0.2em] uppercase font-bold">Nuestras Líneas de Nutrición</span>
+<h2 class="text-primary font-headline-lg-mobile md:font-headline-lg md:text-headline-lg mt-2">
+            Nutrición adaptada para cada etapa de vida
+          </h2>
+</div>
+<p class="text-on-surface-variant font-body-sm text-body-sm max-w-md mt-4 md:mt-0">
+          Cada receta está minuciosamente diseñada atendiendo las demandas metabólicas concretas según edad y complexión física.
+        </p>
+</div>
+<!-- Bento-style Grid of 4 Lines -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1: Cachorros -->
+<div class="bg-surface rounded-lg p-6 border border-secondary/25 flex flex-col justify-between shadow-[0_4px_16px_rgba(18,48,31,0.03)] group hover:border-secondary transition-all">
+<div>
+<div class="relative overflow-hidden rounded-md mb-6 aspect-square bg-surface-container flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-md group-hover:scale-105 transition-transform duration-500" data-alt="A luxurious minimalist bag of puppy food on an artisanal beige surface, clean studio lighting with warm golden undertones, high-end culinary packaging aesthetic for puppies, showcasing natural ingredients and botanical accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5tdiwkxhWejm94mkGhl10LX5Fq5-2zKtoXWyhSj_9jnHwqGCfz4twKDDRkafPazI14pVhvv1AT2J_Px9PV_bzoUrf0FCcFig0oHpyn4uFncaqEUsbKx0E_JzBbkobPQMvDc8kESag-nAfoUkEWkQJAVnqC7tDz37E7zeu_S7cu44tWR0zgMkaXISRSGMNs2W3IxdqKWLErr76S_RldroagduOgh5gl_-NLYxeJFY5V3h3akfSVwE"/>
+<span class="absolute top-3 left-3 bg-secondary-fixed-dim text-primary text-label-sm font-label-sm px-2.5 py-1 rounded-sm uppercase tracking-wider">Cachorros</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Cumbre Cachorros</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Desarrollo cerebral, óseo y cognitivo superior para los primeros pasos con DHA natural y calostro bovino.
+            </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">DHA Algal</span>
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Calcio Puro</span>
+</div>
+</div>
+<a class="inline-flex items-center text-primary group-hover:text-secondary font-semibold font-label-md text-label-md transition-colors" href="#comprar">
+            Ver línea <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card 2: Adultos -->
+<div class="bg-surface rounded-lg p-6 border border-secondary/25 flex flex-col justify-between shadow-[0_4px_16px_rgba(18,48,31,0.03)] group hover:border-secondary transition-all">
+<div>
+<div class="relative overflow-hidden rounded-md mb-6 aspect-square bg-surface-container flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-md group-hover:scale-105 transition-transform duration-500" data-alt="An elegant dark green dog food package for adult dogs placed on an organic stone slab in a bright, modern studio. Warm ivory backdrop with delicate golden grains and lean meat cuts, capturing an artisanal culinary pet food vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARRL87Tbrjx6Bzv8sEPKHT3VxjQepJ8dErjbM9_r-j67SlSTkKIaGJEkPlerMuu25IDEmGsP9_DlKESG7bhCrKfeh5gMegCbfvSB7PiY8icQX8icBPQrWX9HVC5_n3saON1U5iCInNYXtIDDcKYNwOZc6KzDDho0V1VAZKXpDC2RJb2JqjDdXORCP954MhmnWxbHJfeOKj6tLlh7wadgb4zBg_c_HungfjoUCmd0Y5mUlhQyQ1CAo"/>
+<span class="absolute top-3 left-3 bg-primary text-surface text-label-sm font-label-sm px-2.5 py-1 rounded-sm uppercase tracking-wider">Adultos</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Cumbre Adultos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Vitalidad pura, masa muscular magra y pelaje radiante con proteínas de alto valor biológico y semillas ancestrales.
+            </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Proteína Magra</span>
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Omega 3 &amp; 6</span>
+</div>
+</div>
+<a class="inline-flex items-center text-primary group-hover:text-secondary font-semibold font-label-md text-label-md transition-colors" href="#comprar">
+            Ver línea <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card 3: Senior -->
+<div class="bg-surface rounded-lg p-6 border border-secondary/25 flex flex-col justify-between shadow-[0_4px_16px_rgba(18,48,31,0.03)] group hover:border-secondary transition-all">
+<div>
+<div class="relative overflow-hidden rounded-md mb-6 aspect-square bg-surface-container flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-md group-hover:scale-105 transition-transform duration-500" data-alt="Sophisticated artisanal pet food container for senior dogs styled on an elegant light oak surface with fresh herbs and botanical extracts, bathed in soft golden hour lighting, reflecting premium longevity and holistic vitality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzjslL0RyGeqfL5tgQD1A_leg0zMOMRsvX16pUMs0705D6Ae7Oa6KaAO6bmrHFKJLlyOESNumsIdE4A24yBhSEZkgoZ5gJa0g88_PF0GiIb0GKVnmkIBGBY3if9jO_O9ECp6B6S_mGLj6m4A5RkcX58XaNSoKTtbcQYPFAbfabdMxlUPSX9KK0iGJN_FAVShr6obShaao18GDunXqImS3yQ0CpUNtPKnPKCrXxxgT2rOd4ZVw93io"/>
+<span class="absolute top-3 left-3 bg-surface-container-highest text-primary text-label-sm font-label-sm px-2.5 py-1 rounded-sm uppercase tracking-wider border border-secondary/30">Senior 7+</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Cumbre Senior</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Cuidado articular avanzado, soporte cardiovascular y digestión suave enriquecida con glucosamina y condroitina.
+            </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Glucosamina</span>
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Cardio-Protect</span>
+</div>
+</div>
+<a class="inline-flex items-center text-primary group-hover:text-secondary font-semibold font-label-md text-label-md transition-colors" href="#comprar">
+            Ver línea <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card 4: Razas Pequeñas -->
+<div class="bg-surface rounded-lg p-6 border border-secondary/25 flex flex-col justify-between shadow-[0_4px_16px_rgba(18,48,31,0.03)] group hover:border-secondary transition-all">
+<div>
+<div class="relative overflow-hidden rounded-md mb-6 aspect-square bg-surface-container flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-md group-hover:scale-105 transition-transform duration-500" data-alt="Boutique pet food bag for small breed dogs sitting beside a tiny ceramic dish of micro kibble on warm ivory linen, shot with soft diffused daylight, rich emerald and subtle gold accents emphasizing luxury canine nourishment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3gprUnafU__2FJh22Y9PU6mXQOb09wiJeBnKbxC6YBR8DpxL4v_olYyh9mHIjTt7PpXtNjC3dv4-T1Nc95pR2HNDEf6TFa3Q1eDBmgQNTwAgY5Qw-7mXA0Ux4JpVEBjXGpycuGILS5nNtZZnfhnWapmG1MlzWJhLjwmU4WV8ZzsI9YF156f0oT5m4mhnz6mP5lc0OyTilGrjz-fNCHXpALhpd0EaydgF3oYMQdGNHE0JXnO5LJxg"/>
+<span class="absolute top-3 left-3 bg-secondary-fixed text-primary text-label-sm font-label-sm px-2.5 py-1 rounded-sm uppercase tracking-wider">Razas Pequeñas</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Cumbre Razas Pequeñas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Croquetas de tamaño óptimo con densidad calórica calculada y sabor irresistible para metabolismos acelerados.
+            </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Micro-Kibble</span>
+<span class="bg-surface-container text-primary font-label-sm text-xs px-2.5 py-1 rounded-full border border-secondary/20">Alta Densidad</span>
+</div>
+</div>
+<a class="inline-flex items-center text-primary group-hover:text-secondary font-semibold font-label-md text-label-md transition-colors" href="#comprar">
+            Ver línea <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. INGREDIENTS SECTION (Dark Green Contrast Background #12301F with ivory text #FAF6EE) -->
+<section class="py-20 md:py-32 bg-tertiary text-surface" id="ingredientes">
+<div class="max-w-7xl mx-auto px-gutter-mobile md:px-gutter">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="flex items-center justify-center gap-2 mb-3">
+<span class="material-symbols-outlined text-secondary-fixed text-xl">landscape</span>
+<span class="text-secondary-fixed font-label-sm text-label-sm tracking-[0.2em] uppercase font-bold">Grado Humano &amp; Sostenible</span>
+</div>
+<h2 class="text-surface font-headline-lg-mobile md:font-headline-lg md:text-headline-lg mb-4">
+          Ingredientes Reales, De la Tierra al Cuenco
+        </h2>
+<p class="text-surface-variant font-body-md text-body-md font-light">
+          Solo seleccionamos materias primas de grado humano procedentes de productores sostenibles que respetan los ciclos naturales.
+        </p>
+</div>
+<!-- 5 Pure Ingredients Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+<!-- Ingredient 1: Pollo de Granja -->
+<div class="bg-tertiary-container/40 rounded-lg p-6 border border-secondary-fixed/20 flex flex-col justify-between hover:border-secondary-fixed/60 transition-colors">
+<div>
+<div class="h-40 rounded-md overflow-hidden mb-4 bg-tertiary">
+<img class="w-full h-full object-cover" data-alt="Culinary macro close-up of organic, farm-fresh chicken breast on dark slate with coarse sea salt and rosemary sprig, moody studio chiaroscuro lighting, luxury farm-to-table gourmet raw ingredient presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-Wltrw2AOQn37PNeq2OgN3l6oGiKyXqJcwAV1OFfZkNgJOAiqnA9TsRZhIJdXljr2eXR7W51w1obiP1H69gcVjPGTboX6S_KJkDgilogqq8NZuORH6hdbm1SgVgGmO21_61jPzLYN_pp3JngC2uG39b6Tmwv8hTP7lqT2iggiKxmAdyeC_XGsDUcaV6A3mC-V0fOFHGbus_2zXGSpiZuEyi2fqOUyuD22mrQzdTPERqt1iv8wb0Q"/>
+</div>
+<span class="text-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase font-semibold">Proteína Pura</span>
+<h3 class="font-headline-sm text-headline-sm text-surface mt-1 mb-2">Pollo de Granja</h3>
+<p class="font-body-sm text-body-sm text-surface-variant font-light">
+              Proteína magra libre de hormonas criada en libertad para conservar la biodisponibilidad proteica óptima.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline/20">
+<span class="text-xs text-secondary-fixed-dim">Aminoácidos Esenciales</span>
+</div>
+</div>
+<!-- Ingredient 2: Cordero Patagónico -->
+<div class="bg-tertiary-container/40 rounded-lg p-6 border border-secondary-fixed/20 flex flex-col justify-between hover:border-secondary-fixed/60 transition-colors">
+<div>
+<div class="h-40 rounded-md overflow-hidden mb-4 bg-tertiary">
+<img class="w-full h-full object-cover" data-alt="Artisanal cut of pasture-raised Patagonian lamb meat set against a deep rich green and rustic wooden surface, dramatic culinary studio lighting highlighting fresh texture, luxury canine dietary sourcing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvqGkfmVg9pnS-WKCEkaJnLHy5fGU4Ws1dqNQ6e-f0LFsrbdSdo0LAxYPU0Bkvgh2u1NFv_XDw_7SCPz0QzrrAoTMYFA_59nId6Bbe4tdi_z7bsDEHdbGdOGKMerAnHyd867P8ioAPTLMC5qyGRVKwhcn3qTEs2XrXP0l9ZGG6b3jhZRaUyLpDY8cS-7fn4I9mGIc4itYjwwk9EVk1eb1lDmAHRreyGwKa-1Ufisui1rxYaKgh3ns"/>
+</div>
+<span class="text-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase font-semibold">Pastoreo Libre</span>
+<h3 class="font-headline-sm text-headline-sm text-surface mt-1 mb-2">Cordero Patagónico</h3>
+<p class="font-body-sm text-body-sm text-surface-variant font-light">
+              Rico en aminoácidos esenciales, zinc y hierro hemo para una resistencia inmunitaria inquebrantable.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline/20">
+<span class="text-xs text-secondary-fixed-dim">Zinc &amp; Hierro Hemo</span>
+</div>
+</div>
+<!-- Ingredient 3: Salmón Salvaje -->
+<div class="bg-tertiary-container/40 rounded-lg p-6 border border-secondary-fixed/20 flex flex-col justify-between hover:border-secondary-fixed/60 transition-colors">
+<div>
+<div class="h-40 rounded-md overflow-hidden mb-4 bg-tertiary">
+<img class="w-full h-full object-cover" data-alt="Fresh wild-caught salmon fillet showing vibrant orange marbling on cracked ice and dark stone, softly lit with ambient warm tones, high culinary photography illustrating pristine omega-rich fish." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAaLKmF5Rq25AABeiqB9odcghK8Gztb-hotwvn966LQplM7MznhkTGuhl1oEwJrzW-FswEu2FG-RyGiAnShWLT2Gn_nxF6BojGiZWpqDFCPDjbQ7I-yn9PmfNoKGZ9GFLDLeWuSTLw2l9HtkM7L31ZPEio8I1nj8P0OtRtjOpgXOJAv1a9CXzIyg4EoC1fqk3JUPTQFPAQ4v2abGUdo19IYn8mOkxTgAiVC3CUJpMaVzdsWuhsBNY"/>
+</div>
+<span class="text-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase font-semibold">Pesca Limpia</span>
+<h3 class="font-headline-sm text-headline-sm text-surface mt-1 mb-2">Salmón Salvaje</h3>
+<p class="font-body-sm text-body-sm text-surface-variant font-light">
+              Ácidos grasos Omega-3 y Omega-6 activos que nutren profundamente los folículos y alivian inflamaciones.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline/20">
+<span class="text-xs text-secondary-fixed-dim">Omega-3 EPA &amp; DHA</span>
+</div>
+</div>
+<!-- Ingredient 4: Arroz Integral -->
+<div class="bg-tertiary-container/40 rounded-lg p-6 border border-secondary-fixed/20 flex flex-col justify-between hover:border-secondary-fixed/60 transition-colors">
+<div>
+<div class="h-40 rounded-md overflow-hidden mb-4 bg-tertiary">
+<img class="w-full h-full object-cover" data-alt="Artisanal ceramic bowl overflowing with wholesome golden brown rice grains and wild seeds on a natural burlap cloth, soft warm side lighting, organic agricultural aesthetic with clean earth tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuEJqTANEn6xg7Dntq7r9dN5QGZ03gpQc8IpLHPFbb5YsXAUXvTCTHEIBLehcn9vwPjxaQWx012XHyQFhYjC4evabNDp_QyXl80YqNlIqfAOCHdMRLV8umc3z7FKfP-0StiCM_e10HGx9bkQcIyyWw-fU2UD7t00c3lGtt-ClvcXTRxFGq8oS6qTQ1vojdyLdNr-XEbmxMHUc8fd82cyGy6a3pBcdpppLUfxyrwdUKXTDLskZsnOQ"/>
+</div>
+<span class="text-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase font-semibold">Grano Ancestral</span>
+<h3 class="font-headline-sm text-headline-sm text-surface mt-1 mb-2">Arroz Integral</h3>
+<p class="font-body-sm text-body-sm text-surface-variant font-light">
+              Fibra suave de lenta absorción para una liberación de energía sostenida sin picos glucémicos perjudiciales.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline/20">
+<span class="text-xs text-secondary-fixed-dim">Fibra Prebiótica Suave</span>
+</div>
+</div>
+<!-- Ingredient 5: Zanahoria Silvestre -->
+<div class="bg-tertiary-container/40 rounded-lg p-6 border border-secondary-fixed/20 flex flex-col justify-between hover:border-secondary-fixed/60 transition-colors">
+<div>
+<div class="h-40 rounded-md overflow-hidden mb-4 bg-tertiary">
+<img class="w-full h-full object-cover" data-alt="Freshly harvested heirloom wild carrots with lush green tops dusted with rich soil on dark slate, focused natural daylight emphasizing vibrant orange and botanical freshness, organic wholesome aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFxIeXx31zaoRK2EYPp5ncwxI8qD1uizbzwUl9t3CJDnBMZqOF8HHj8NadEv5T5v5yJGiMwQ46HXsQXLFcqJ4HhJtP_OrsWF-dGuuxtCOsWrD4DIWnDN6SdZ800WKngi1ZFGJ7-prq9vq8tTAMoBuq-jIMh8cffm_6gqqlj-q5XNFwUfeIDY1-cAQSKPiF9362EI_ibrM-0cMBC69DiRMETXMGV7Sc-qvX4AAJLyKPb07rb6yZC4Q"/>
+</div>
+<span class="text-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase font-semibold">Huerto Orgánico</span>
+<h3 class="font-headline-sm text-headline-sm text-surface mt-1 mb-2">Zanahoria Silvestre</h3>
+<p class="font-body-sm text-body-sm text-surface-variant font-light">
+              Betacarotenos concentrados, antioxidantes naturales y soporte activo para la salud visual y celular.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline/20">
+<span class="text-xs text-secondary-fixed-dim">Betacaroteno Activo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. TESTIMONIALS SECTION ('Opiniones') -->
+<section class="py-16 md:py-24 bg-surface" id="opiniones">
+<div class="max-w-7xl mx-auto px-gutter-mobile md:px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-secondary font-label-sm text-label-sm tracking-[0.2em] uppercase font-bold">Opiniones Verificadas</span>
+<h2 class="text-primary font-headline-lg-mobile md:font-headline-lg md:text-headline-lg mt-2 mb-4">
+          Historias de bienestar y transformación
+        </h2>
+<p class="text-on-surface-variant font-body-md text-body-md">
+          Miles de familias y profesionales avalan los cambios visibles en vitalidad, pelaje y calidad de vida.
+        </p>
+</div>
+<!-- Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 flex flex-col justify-between shadow-[0_12px_32px_-4px_rgba(18,48,31,0.04)] relative">
+<span class="material-symbols-outlined text-secondary/30 text-5xl absolute top-6 right-6 select-none font-serif">format_quote</span>
+<div>
+<div class="flex text-secondary mb-4">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface font-body-lg text-body-lg italic mb-6 leading-relaxed">
+              "El brillo de su pelaje y su energía cambiaron en solo dos semanas. Cumbre es verdaderamente otro nivel culinario."
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/30">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-primary/10 border border-secondary">
+<img class="w-full h-full object-cover" data-alt="Portrait of an elegant young woman smiling beside her happy golden retriever dog in a serene, bright living room bathed in natural morning light, quiet luxury lifestyle photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYeXqdpezntfqKhXswsw530auCKVcNTZml_lUmlSFeQpEKkcvwj4DrY1pADJ93a3-l9OPgX8Pdbvb9M7sIn9I4LL--fmVFGW1jVMdSvcl2VO37_1rFgB_sKjQe60j166K58n7Xfzs-2gpl3-JisSEG0r7sfcccbCrhT49pH3rTDu769c-9HTGWW9AdsgWv9wCmtdXJRG13UVSgMsUeKZOFvhsYNnlsXWgAJmj85vj02uMrndcuD4Q"/>
+</div>
+<div>
+<p class="font-headline-sm text-sm text-primary font-semibold">Camila Valenzuela</p>
+<p class="font-label-sm text-xs text-outline">Dueña de Bruno (Golden Retriever)</p>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 flex flex-col justify-between shadow-[0_12px_32px_-4px_rgba(18,48,31,0.04)] relative">
+<span class="material-symbols-outlined text-secondary/30 text-5xl absolute top-6 right-6 select-none font-serif">format_quote</span>
+<div>
+<div class="flex text-secondary mb-4">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface font-body-lg text-body-lg italic mb-6 leading-relaxed">
+              "Recomiendo Cumbre a mis pacientes porque el perfil de aminoácidos e ingredientes reales es inmejorable. Resultados clínicos comprobados."
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/30">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-primary/10 border border-secondary">
+<img class="w-full h-full object-cover" data-alt="Portrait of a friendly, distinguished male veterinarian in clean professional attire standing with a healthy border collie, warm natural clinic ambient lighting, expressing trust and medical authority." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVgQfL5ouHzV-plMxogIOhQxWhNsyoPo47xTmwJQlHKU3M1AQAAAdseqE4WEgZoq48gLYkIJxkj5apMO5c8yQwUiVHy2rT8RncE-80C3e34D6gKvAEokwH3OU5ld3bVUSMRvtPjnWRDkbA_VGchNFfb2irMdDFhuCBgQ0HxcekIFZfQVF9vzUU63-Crh4D9QyWrxlUnDciDKZxfjcB_6iSySLHwPrQI05DJhgqsD2FHK4gArjehwk"/>
+</div>
+<div>
+<p class="font-headline-sm text-sm text-primary font-semibold">Dr. Rodrigo Méndez</p>
+<p class="font-label-sm text-xs text-outline">Veterinario y dueño de Maya</p>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container rounded-lg p-8 border border-secondary/25 flex flex-col justify-between shadow-[0_12px_32px_-4px_rgba(18,48,31,0.04)] relative">
+<span class="material-symbols-outlined text-secondary/30 text-5xl absolute top-6 right-6 select-none font-serif">format_quote</span>
+<div>
+<div class="flex text-secondary mb-4">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface font-body-lg text-body-lg italic mb-6 leading-relaxed">
+              "Increíble digestión. Por fin encontramos un alimento gourmet que le sienta perfecto a su estómago sensible."
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/30">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-primary/10 border border-secondary">
+<img class="w-full h-full object-cover" data-alt="Candid lifestyle portrait of a chic woman with her French Bulldog in a bright sunlit apartment with natural wooden accents, soft warm tones capturing genuine companionship and contentment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp1TIvYvZOrxvk6KF1_qDEYF8Rzuc7O8OiQkwy4ZU8mD7V-uafsEOTu833ilNXPrClW_Yv0WVVUV6P2bseXA4KFFryTe-HpyK4USy-7TAEdNWYvDCXzCngyd87bumJ6RtT-w4y7VYTe4AUYkuhYyq0NAAnFhNuj7baTUciEVX6yHKrSC9yulvN1mI5DEQZH_Bgm-EseBk0Sw82enhwtjHdKWBLw9Tmq0ZpA6G0jRt7UMBCLxNBLpU"/>
+</div>
+<div>
+<p class="font-headline-sm text-sm text-primary font-semibold">Sofía Larraín</p>
+<p class="font-label-sm text-xs text-outline">Dueña de Coco (Bulldog Francés)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. FINAL CALL-TO-ACTION BANNER -->
+<section class="py-20 md:py-28 bg-primary-container relative overflow-hidden text-surface" id="comprar">
+<!-- Mountain Contour SVG Abstract Background Accent -->
+<div class="absolute inset-0 opacity-10 pointer-events-none flex items-end justify-center">
+<svg class="w-full h-full object-cover" fill="none" viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+<path d="M0,224L60,197.3C120,171,240,117,360,122.7C480,128,600,192,720,208C840,224,960,192,1080,165.3C1200,139,1320,117,1380,106.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z" fill="#C9A45C"></path>
+</svg>
+</div>
+<div class="max-w-4xl mx-auto px-gutter-mobile md:px-gutter text-center relative z-10">
+<div class="inline-flex items-center justify-center p-3 rounded-full bg-secondary-fixed/10 border border-secondary-fixed/30 mb-6">
+<span class="material-symbols-outlined text-secondary-fixed text-2xl">verified_user</span>
+</div>
+<h2 class="font-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-surface mb-6 leading-tight">
+        Tu perro merece lo mejor
+      </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-xl mx-auto mb-10 font-light leading-relaxed">
+        Eleva su nutrición hoy y nota la diferencia desde el primer tazón.
+      </p>
+<div class="flex flex-col items-center">
+<a class="inline-flex items-center justify-center px-10 py-4 rounded-full bg-secondary-fixed-dim hover:bg-secondary-fixed text-primary font-bold text-subheading tracking-wider transition-all duration-300 shadow-[0_8px_24px_rgba(201,164,92,0.3)] hover:scale-105 active:scale-95" href="#contacto">
+          Comprar ahora
+        </a>
+<p class="text-on-primary-container font-label-sm text-xs tracking-wider mt-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-secondary-fixed">local_shipping</span>
+          Envío express refrigerado y asesoría nutricional gratuita
+        </p>
+</div>
+</div>
+</section>
+<!-- 8. FOOTER (Shared JSON blueprint) -->
+<footer class="bg-primary dark:bg-inverse-surface text-secondary-fixed dark:text-secondary-fixed docked full-width border-t border-tertiary-container dark:border-outline/20" id="contacto">
+<div class="w-full px-gutter-mobile md:px-margin py-space-xl max-w-7xl mx-auto flex flex-col justify-between">
+<!-- Top Tier: Brand, Links, Contact & Newsletter -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-12 border-b border-tertiary-container">
+<!-- Brand Bio -->
+<div class="lg:col-span-4 flex flex-col">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-secondary-fixed text-3xl">landscape</span>
+<span class="font-headline-md text-headline-md tracking-wider uppercase text-surface dark:text-surface-bright">CUMBRE</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container max-w-sm mb-6 leading-relaxed">
+            Nutrición canina de alta gastronomía concebida con respeto biológico y maestría culinaria. Origen sostenible y devoción por la longevidad canina.
+          </p>
+<!-- Social Icons -->
+<div class="flex items-center gap-4">
+<a aria-label="Instagram" class="w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center text-surface hover:text-secondary-fixed hover:bg-tertiary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">photo_camera</span>
+</a>
+<a aria-label="Facebook" class="w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center text-surface hover:text-secondary-fixed hover:bg-tertiary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a aria-label="YouTube" class="w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center text-surface hover:text-secondary-fixed hover:bg-tertiary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">smart_display</span>
+</a>
+</div>
+</div>
+<!-- Quick Links (from JSON links array) -->
+<div class="lg:col-span-3">
+<p class="font-label-md text-label-md text-surface uppercase tracking-widest font-semibold mb-4">Navegación</p>
+<ul class="space-y-3 font-body-sm text-body-sm">
+<li><a class="text-on-primary-container dark:text-outline-variant hover:text-secondary-fixed hover:underline transition-colors duration-200" href="#">Filosofía</a></li>
+<li><a class="text-on-primary-container dark:text-outline-variant hover:text-secondary-fixed hover:underline transition-colors duration-200" href="#">Recetas &amp; Ingredientes</a></li>
+<li><a class="text-on-primary-container dark:text-outline-variant hover:text-secondary-fixed hover:underline transition-colors duration-200" href="#">Guía Nutricional</a></li>
+<li><a class="text-on-primary-container dark:text-outline-variant hover:text-secondary-fixed hover:underline transition-colors duration-200" href="#">Sostenibilidad</a></li>
+<li><a class="text-on-primary-container dark:text-outline-variant hover:text-secondary-fixed hover:underline transition-colors duration-200" href="#">Términos y Condiciones</a></li>
+<li><a class="text-on-primary-container dark:text-outline-variant hover:text-secondary-fixed hover:underline transition-colors duration-200" href="#">Privacidad</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div class="lg:col-span-2">
+<p class="font-label-md text-label-md text-surface uppercase tracking-widest font-semibold mb-4">Contacto Directo</p>
+<div class="space-y-3 font-body-sm text-body-sm text-on-primary-container">
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-sm">mail</span>
+              hola@cumbrepetfood.com
+            </p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-sm">support_agent</span>
+              Línea Veterinaria 24/7
+            </p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-sm">location_on</span>
+              Santiago, Chile
+            </p>
+</div>
+</div>
+<!-- Newsletter Signup -->
+<div class="lg:col-span-3">
+<p class="font-label-md text-label-md text-surface uppercase tracking-widest font-semibold mb-2">Únete al Club Cumbre</p>
+<p class="font-body-sm text-body-sm text-on-primary-container mb-4">
+            Recibe cartas estacionales de nutrición, invitaciones a catas caninas y beneficios exclusivos.
+          </p>
+<form class="flex flex-col gap-2" onsubmit="event.preventDefault(); alert('¡Gracias por unirte al Club Cumbre!');">
+<input class="w-full px-4 py-2.5 rounded-lg bg-surface text-on-surface border border-outline/30 focus:outline-none focus:border-secondary-fixed text-body-sm placeholder:text-outline" placeholder="Tu correo electrónico" required="" type="email"/>
+<button class="w-full px-4 py-2.5 rounded-lg bg-secondary-fixed-dim hover:bg-secondary-fixed text-primary font-semibold text-label-sm tracking-wider uppercase transition-colors" type="submit">
+              Suscribirse
+            </button>
+</form>
+</div>
+</div>
+<!-- Bottom Tier: Copyright -->
+<div class="pt-8 flex flex-col md:flex-row items-center justify-between text-on-primary-container text-body-sm font-body-sm">
+<p>© 2024 CUMBRE Pet Food. Nutrición canina de alta gastronomía. Todos los derechos reservados.</p>
+<p class="font-label-sm text-label-sm text-secondary-fixed mt-2 md:mt-0 tracking-wider">CRAFTED FOR CANINE VITALITY</p>
+</div>
+</div>
+</footer>
+<!-- Vanilla JS for Menu Toggle -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', function () {
+          mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+          });
+        });
+      }
+    });
+  </script>
+</body></html>
